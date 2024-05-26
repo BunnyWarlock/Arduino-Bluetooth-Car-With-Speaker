@@ -45,6 +45,9 @@ void loop() {
       case 'S':
         startSong();
         break;
+      case 'P':
+        singing = false;
+        break;
       case '0':
         stop();
         break;
